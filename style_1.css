@@ -1,0 +1,69 @@
+
+    .head{
+        font-family: "Times New Roman";
+        background-color: #87B6A7;
+        color: paleturquoise;
+        font-weight: bold;
+        font-size: x-large;
+        text-align: center;
+        padding: 10px;
+    }
+      .content{
+          width: 1000px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .box{
+          width: 280px;
+          padding: 10px;
+          margin: 10px;
+          background-color: #E3F09B;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        font-weight: bold;
+        color: coral;
+        }
+        .boxContent{
+          width: 280px;
+          padding: 10px;
+          margin: 10px;
+          background-color: white;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        font-weight: bold;
+        color: coral;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        main>.item{
+            height: 500px;
+            width: 280 px;
+            flex: none;
+            text-align: center;
+            background-color: red;
+        }
+
+        .centerImg{
+            text-align: center;
+            vertical-align: center;
+            width: 100%;
+            width: 100%;
+        }
+        
+        html{
+            height: 100%;
+            margin: 0%;
+            padding: 20px;
+        }
+
+        body{
+                background-image: url('bg.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+        }
